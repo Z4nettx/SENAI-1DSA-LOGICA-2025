@@ -3,15 +3,18 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro idade
+		inteiro idade=0
 		
-		escreva("Digite sua idade: \n")
+    enquanto(idade>=0){
+		escreva("\nDigite sua idade: \n")
 		leia(idade)
-		se(idade>=18){
-			escreva("Você tem ",idade," anos",", você é maior de idade")
-		}senao{
-			escreva("Você tem ",idade," anos",", você é menor de idade")
+
+      se(idade>=18)
+		  escreva("Você tem ",idade," anos",", você é maior de idade\n")
+		senao{
+			escreva("Você tem ",idade," anos",", você é menor de idade\n")
 		}
+    }
 	}
 }
 /* $$$ Portugol Studio $$$ 
